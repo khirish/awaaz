@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1fY-DI-P7O">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AwaazIndia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="136"/>
+        </scene>
+        <!--YouTube-->
+        <scene sceneID="3nq-91-p0S">
+            <objects>
+                <viewController id="28a-XE-RuP" customClass="VideoViewController" customModule="AwaazIndia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Qc-yl-3CB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JRp-oy-8pt">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JRp-oy-8pt" firstAttribute="top" secondItem="nI7-QO-Jvk" secondAttribute="top" id="Dnl-h5-UXu"/>
+                            <constraint firstItem="nI7-QO-Jvk" firstAttribute="trailing" secondItem="JRp-oy-8pt" secondAttribute="trailing" id="kXF-ap-CPy"/>
+                            <constraint firstItem="JRp-oy-8pt" firstAttribute="leading" secondItem="nI7-QO-Jvk" secondAttribute="leading" id="twB-VD-Jxl"/>
+                            <constraint firstItem="nI7-QO-Jvk" firstAttribute="bottom" secondItem="JRp-oy-8pt" secondAttribute="bottom" id="zFN-zh-k2Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nI7-QO-Jvk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="YouTube" image="video.fill" catalog="system" id="x9A-aa-gQU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xPW-kL-Nx8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3193" y="-295"/>
+        </scene>
+        <!--Gallary-->
+        <scene sceneID="LJS-rp-UwM">
+            <objects>
+                <viewController id="Y5F-Kg-7Y0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fdw-se-72s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="GoB-y2-1va"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Gallary" image="photo.on.rectangle" catalog="system" id="uUZ-jr-74x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vjR-br-EGK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1977" y="733"/>
+        </scene>
+        <!--Events-->
+        <scene sceneID="4vV-mS-9o5">
+            <objects>
+                <viewController id="lG7-YO-ekh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HEJ-Ji-5wC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gib-Nl-eNB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Events" image="rosette" catalog="system" id="K0V-Xy-C2w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BhG-pN-3ed" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3980" y="395"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iM8-aE-6Am">
+            <objects>
+                <navigationController id="1fY-DI-P7O" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bMO-Il-V8x">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4Xe-FU-Cim" kind="relationship" relationship="rootViewController" id="SBH-73-Gqx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uxp-sg-uAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1261" y="-1005"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Nb5-WA-aq7">
+            <objects>
+                <viewController id="QJ9-PQ-xHR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="an9-4K-p8v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fDq-TA-eew"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="yVw-21-LaC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vsv-bo-1YO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2223" y="-1005"/>
+        </scene>
+        <!--आवाज़ इंडिया-->
+        <scene sceneID="Y5m-Wv-Dm1">
+            <objects>
+                <tabBarController id="4Xe-FU-Cim" customClass="Main" customModule="AwaazIndia" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="आवाज़ इंडिया" largeTitleDisplayMode="always" id="HZ9-89-YEi">
+                        <barButtonItem key="leftBarButtonItem" image="line.horizontal.3.decrease" catalog="system" id="lDJ-5e-Cff">
+                            <connections>
+                                <action selector="menuToggle:" destination="4Xe-FU-Cim" id="UPt-qL-7Ou"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="BY2-Zp-zxl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
+                        <color key="barTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="slideMenu" destination="s6N-Vb-U6G" id="krI-0I-Lf1"/>
+                        <segue destination="QJ9-PQ-xHR" kind="relationship" relationship="viewControllers" id="bGQ-uS-3gO"/>
+                        <segue destination="28a-XE-RuP" kind="relationship" relationship="viewControllers" id="FR1-hd-XJ9"/>
+                        <segue destination="lG7-YO-ekh" kind="relationship" relationship="viewControllers" id="K8e-fe-Ud2"/>
+                        <segue destination="Y5F-Kg-7Y0" kind="relationship" relationship="viewControllers" id="7A3-qs-9yV"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1VA-t5-jYy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s6N-Vb-U6G">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </objects>
+            <point key="canvasLocation" x="1262" y="137"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="line.horizontal.3.decrease" catalog="system" width="128" height="73"/>
+        <image name="photo.on.rectangle" catalog="system" width="128" height="98"/>
+        <image name="rosette" catalog="system" width="100" height="128"/>
+        <image name="video.fill" catalog="system" width="128" height="82"/>
+    </resources>
+</document>
